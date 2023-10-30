@@ -1,0 +1,127 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_person" />
+
+    <TextView
+        android:id="@+id/atas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/asa" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pizza"
+                android:layout_marginTop="30dp"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pizzapaperonu"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Paperoni Pizza Cocok badi anda yang ingin mesakanpizza originaldengan taburan keju dan daging asap" />
+
+        </TableRow>
+
+        <!-- Baris 2 -->
+        <TableRow>
+            <ImageView
+                android:id="@+id/spageti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/spageti"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/spagetidesc"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental" />
+
+
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/burger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/burger"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/burgerid"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+                android:text="Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/steak"
+                android:layout_width="wrap_content"
+                android:layout_height="112dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/steak"
+                android:textSize="@dimen/text_heading"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/steackdec"
+                android:layout_width="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Cocock badi anda yang ingin mesakanpizza originaldengan taburan keju dan daging asap" />
+
+        </TableRow>
+    </TableLayout>
+    ```
+</LinearLayout>
+
+

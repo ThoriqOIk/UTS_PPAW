@@ -1,0 +1,54 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/desc_pizza" />
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Price: Rp 66.000,00" />
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Pepperoni pizza adalah pizza yang memiliki  topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda" />
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="290dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/red"
+        android:text="Order Now"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+    <Button
+        android:id="@+id/button_seond"
+        android:layout_width="290dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+</LinearLayout>
